@@ -1,0 +1,4 @@
+﻿  main.cpp
+z:\opengl\tp_camera\tp_camera\tp_camera\main.cpp(172): warning C4018: '<' : incompatibilité signed/unsigned
+z:\opengl\tp_camera\tp_camera\tp_camera\main.cpp(217): warning C4018: '<' : incompatibilité signed/unsigned
+  TP_Camera.vcxproj -> Z:\OpenGL\TP_Camera\TP_Camera\Debug\TP_Camera.exe
