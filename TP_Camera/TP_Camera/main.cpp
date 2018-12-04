@@ -444,7 +444,7 @@ vector <Cube*> creatlist(vector <Cube*> listcubes) {
 	Platform cube3 = Platform::Platform(Vector3D(30, -10, 0), Vector3D(5, 1, 5));
 	Platform cube4 = Platform::Platform(Vector3D(45, 5, 0), Vector3D(5, 1, 5));
 	Platform cube5 = Platform::Platform(Vector3D(70, -1, 0), Vector3D(5, 1, 5));
-	Jumpoline cube6 = Jumpoline::Jumpoline(Vector3D(-15, -1, 0), Vector3D(5, 1, 5), 0.7f);
+	Jumpoline cube6 = Jumpoline::Jumpoline(Vector3D(-5, -1, 0), Vector3D(5, 1, 5), 0.7f);
 	Elevator cube7 = Elevator::Elevator(Vector3D(0, 8, 15), Vector3D(5, 8, 5), 0.1f);
 	listcubes.push_back(&cube1);
 	listcubes.push_back(&cube2);
@@ -515,7 +515,7 @@ int main(int argc, char **argv) {
    Platform cube3 = Platform::Platform(Vector3D(35, 40, 15), Vector3D(5, 1, 5));
    Platform cube4 = Platform::Platform(Vector3D(0, 30, 0), Vector3D(5, 1, 5));
    Platform cube5 = Platform::Platform(Vector3D(15, 35, -15), Vector3D(5, 1, 5));
-   Jumpoline cube6 = Jumpoline::Jumpoline(Vector3D(35, 19, 0), Vector3D(5, 1, 5), 0.7f);
+   Jumpoline cube6 = Jumpoline::Jumpoline(Vector3D(30, 19, 0), Vector3D(5, 1, 5), 0.7f);
    Elevator cube7 = Elevator::Elevator(Vector3D(0, 8, 15), Vector3D(5, 8, 5), 0.1f);
    listcubes.push_back(&cube1);
    listcubes.push_back(&cube2);

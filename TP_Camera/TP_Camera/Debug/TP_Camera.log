@@ -1,8 +1,4 @@
-﻿  vector3d.cpp
-  typecube.cpp
-  main.cpp
+﻿  main.cpp
 c:\users\eleve\documents\github\p1rv\tp_camera\tp_camera\main.cpp(172): warning C4018: '<' : incompatibilité signed/unsigned
 c:\users\eleve\documents\github\p1rv\tp_camera\tp_camera\main.cpp(217): warning C4018: '<' : incompatibilité signed/unsigned
-  cube.cpp
-  Génération de code en cours...
   TP_Camera.vcxproj -> C:\Users\eleve\Documents\GitHub\P1RV\TP_Camera\Debug\TP_Camera.exe

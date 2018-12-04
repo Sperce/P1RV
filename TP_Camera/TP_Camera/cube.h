@@ -12,6 +12,7 @@
 
 #include "vector3D.h"
 
+/* CLASSE CUBE */
 
 class Cube
 {
