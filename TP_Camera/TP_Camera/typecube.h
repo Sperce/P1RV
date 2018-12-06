@@ -13,10 +13,6 @@
 #include "vector3D.h"
 #include "cube.h"
 
-///////////////////////Sous-classes de CUBE///////////////////////////////
-
-/* Plateforme classique*/
-
 class Platform : public Cube {
 
 	public: 
@@ -26,9 +22,6 @@ class Platform : public Cube {
 	~Platform();
 };
 
-
-/* Plateforme permettant un rebond */ 
-
 class Trumpoline : public Cube {
 	public:
 		Vector3D poke(Vector3D camPos, Vector3D futur, bool* grounded);
@@ -36,8 +29,6 @@ class Trumpoline : public Cube {
 	Trumpoline(Vector3D centre, Vector3D dimensions);
 	~Trumpoline();
 };
-
-/* Plateforme permettant un  rebond */
 
 class Jumpoline : public Cube {
 protected:
@@ -51,7 +42,6 @@ public:
 	Jumpoline(Vector3D centre, Vector3D dimensions, float jump);
 	~Jumpoline();
 };
-
 
 class Shadowcube : public Cube {
 public:
@@ -82,3 +72,15 @@ public:
 	~doublejumper();
 };
 */
+class Antigrav : public Cube {
+protected:
+	float antigrav;
+public:
+	Vector3D poke(Vector3D camPos, Vector3D futur, bool* grounded);
+	float getantigrav();
+	void setantigrav(float antigrav);
+
+
+	Antigrav(Vector3D centre, Vector3D dimensions, float jump);
+	~Antigrav();
+};
